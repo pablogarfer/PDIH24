@@ -1,0 +1,1 @@
+cmd_/home/pablogarfer/Documents/modulo/hello.ko := ld -r  -m elf_x86_64 -z noexecstack   --build-id=sha1  -T scripts/module.lds -o /home/pablogarfer/Documents/modulo/hello.ko /home/pablogarfer/Documents/modulo/hello.o /home/pablogarfer/Documents/modulo/hello.mod.o;  true
